@@ -16,37 +16,91 @@ const Projects = () => {
 
   const projects = [
     {
-      title: "Mail Hawk",
-      description: "AI-powered inbox firewall to block spam and scams. Built with Python, FastAPI, and NLP to provide intelligent email filtering and security.",
-      image: "/api/placeholder/400/250",
-      tags: ["Python", "FastAPI", "AI", "NLP", "Gmail API", "Email Security"],
-      link: "#",
-      github: "#",
-      featured: true
-    },
-    {
       title: "Pulse HMS",
-      description: "Healthcare management system with offline mode and AI mini-reports. Designed for healthcare facilities to manage patient data efficiently with local-first storage.",
+      description: "Main healthcare management system application with comprehensive patient data management, appointment scheduling, and medical records tracking. Built with modern web technologies for healthcare facilities.",
       image: "/api/placeholder/400/250",
-      tags: ["Python", "FastAPI", "Healthcare", "Offline Mode", "AI Reports", "Local Storage"],
+      tags: ["Healthcare", "Patient Management", "Appointments", "Medical Records", "Web App"],
       link: "#",
       github: "#",
       featured: true
     },
     {
-      title: "Inbox Shield",
-      description: "Smart Gmail-based tool that detects scam emails using NLP. Integrates with Gmail API to provide real-time scam detection and protection.",
+      title: "PulseLanding",
+      description: "Marketing landing page for Pulse HMS with modern design, lead generation forms, and conversion optimization. Showcases healthcare solutions and drives user engagement.",
       image: "/api/placeholder/400/250",
-      tags: ["Python", "Gmail API", "NLP", "Scam Detection", "Email Security"],
+      tags: ["Marketing", "Landing Page", "Lead Generation", "Conversion", "Healthcare"],
+      link: "#",
+      github: "#",
+      featured: true
+    },
+    {
+      title: "ZamindarWebsite",
+      description: "Professional website for Zamindar business with modern UI/UX, responsive design, and business showcase. Features property listings, company information, and contact forms.",
+      image: "/api/placeholder/400/250",
+      tags: ["Business Website", "Property", "Responsive Design", "UI/UX", "Landing Page"],
       link: "#",
       github: "#",
       featured: false
     },
     {
-      title: "Food Rescue Network",
-      description: "A social impact app connecting restaurants and NGOs to fight food waste. Built to facilitate food donation and reduce waste in communities.",
+      title: "GithubMirror",
+      description: "GitHub mirroring tool for repository synchronization and backup. Enables seamless mirroring between different Git platforms with automated workflows.",
       image: "/api/placeholder/400/250",
-      tags: ["Python", "FastAPI", "Social Impact", "Food Waste", "NGO Integration"],
+      tags: ["Git", "GitHub", "Mirroring", "Automation", "Backup"],
+      link: "#",
+      github: "#",
+      featured: false
+    },
+    {
+      title: "FitnessFlexCore",
+      description: "Core fitness application with workout tracking, exercise library, and progress monitoring. Built for fitness enthusiasts and gym management.",
+      image: "/api/placeholder/400/250",
+      tags: ["Fitness", "Workout Tracking", "Exercise Library", "Progress Monitoring", "Health"],
+      link: "#",
+      github: "#",
+      featured: false
+    },
+    {
+      title: "Portfolio-The Legend",
+      description: "This current portfolio website showcasing unique animations, modern design, and professional presentation. Built with Next.js, Framer Motion, and cutting-edge web technologies.",
+      image: "/api/placeholder/400/250",
+      tags: ["Portfolio", "Next.js", "Framer Motion", "Animations", "Modern Design"],
+      link: "#",
+      github: "#",
+      featured: false
+    },
+    {
+      title: "Dot Skills",
+      description: "Skills visualization tool with interactive dot-based interface. Helps users showcase their technical skills in an engaging and visually appealing way.",
+      image: "/api/placeholder/400/250",
+      tags: ["Skills Visualization", "Interactive", "UI/UX", "Data Visualization", "Web App"],
+      link: "#",
+      github: "#",
+      featured: false
+    },
+    {
+      title: "Lines Counter Package",
+      description: "NPM package for counting lines of code in various programming languages. Useful for project analysis, code metrics, and development insights.",
+      image: "/api/placeholder/400/250",
+      tags: ["NPM Package", "Code Analysis", "Metrics", "Developer Tools", "Node.js"],
+      link: "#",
+      github: "#",
+      featured: false
+    },
+    {
+      title: "Volume Booster",
+      description: "Audio enhancement tool for boosting volume levels and improving sound quality. Features advanced audio processing and user-friendly controls.",
+      image: "/api/placeholder/400/250",
+      tags: ["Audio", "Volume Enhancement", "Sound Processing", "User Interface", "Media"],
+      link: "#",
+      github: "#",
+      featured: false
+    },
+    {
+      title: "Data Getters",
+      description: "Data extraction and processing tool for collecting information from various sources. Streamlines data gathering workflows and automation.",
+      image: "/api/placeholder/400/250",
+      tags: ["Data Extraction", "Automation", "Web Scraping", "Data Processing", "Tools"],
       link: "#",
       github: "#",
       featured: false
