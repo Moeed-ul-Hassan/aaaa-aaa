@@ -319,6 +319,10 @@ const Hero = () => {
             className="flex flex-col sm:flex-row gap-6 justify-center items-center"
           >
             <motion.button
+              onClick={() => {
+                // Open email with pre-filled subject and body
+                window.open('mailto:moeedulhassan.pk@gmail.com?subject=Portfolio Inquiry - Let\'s Connect!&body=Hi Moeed,%0D%0A%0D%0AI came across your portfolio and would like to discuss potential opportunities.%0D%0A%0D%0ABest regards,', '_blank')
+              }}
               whileHover={{ 
                 scale: 1.05,
                 boxShadow: "0 25px 50px rgba(14, 165, 233, 0.4)"
@@ -346,6 +350,10 @@ const Hero = () => {
             </motion.button>
             
             <motion.button
+              onClick={() => {
+                // Scroll to projects section
+                document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' })
+              }}
               whileHover={{ 
                 scale: 1.05,
                 boxShadow: "0 25px 50px rgba(14, 165, 233, 0.3)"
